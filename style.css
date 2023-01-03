@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+    --background-color:#f5f5f5;
+    --primary-heading-color:#222222;
+    --primary-text-color:#666666;
+    --nav-bar-text-color:#cccccc;
+    --primary-background-color:#1f2533;
+    --secondary-background-color:#333545;
+}
+/* utility-class  */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    /* width: 1500px; */
+    
+}
+.flex{
+    display: flex;
+    
+}
+img{
+    border-radius: 8px;
+}
+ .container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding: 20px;
+    max-height: fit-content;
+
+ }
+ .primary-button{
+    text-align: center;
+    width: 67px;
+    height: 25px;
+    background-color: #f84464 ;
+    border: none;
+    color:white;
+
+ }
+a{
+    text-decoration: none;
+    color:var(--nav-bar-text-color);
+}
+li{
+    list-style: none;
+    
+}
+
+.hover-link:hover{
+    color: #ffff;
+}
+h2{
+    font-size: 18px;
+    line-height: 24px;
+
+}
+p{
+    font-size: 16px;
+    line-height: 24px;
+}
+h1{
+    font-size: 28px;
+}
+.margin{
+    margin-block: 40px;
+}
+/* top-banner-section  */
+.top-banner-section {
+    background-color: var(--secondary-background-color);
+    height: 63px;
+    
+}
+.whole-search-bar {
+    align-items: center;
+     gap:250px;  
+}
+.search-bar{
+    align-items: center;
+    
+   
+    gap: 20px;
+   
+}
+
+.whole-search-bar img:nth-child(1){
+    width: 120px;
+
+    
+}
+.whole-search-bar img:nth-child(2){
+    width: 12px;
+    position:absolute;
+    margin: 0 0 0 150px ;
+}    
+
+input{
+    
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+    text-align:center;
+    
+}
+
+
+
+/* nav-bar-section  */
+.nav-bar-section{
+    background-color: var(--primary-background-color);
+    height: 40px;
+    font-size: 14px;
+    align-items: center;
+    
+}
+.nav-bar-items{
+    gap: 320px;
+  
+}
+.nav-items{
+    
+    align-content: center;
+    
+}
+
+.hover-link{
+    
+    padding: 0 10px 0 10px;
+}
+
+
+
+/* reccommender-secction  */
+.recommended-Movies-section{
+    
+    
+   
+}
+.img-cars-section{
+    
+    justify-content:;
+    gap: 20px;
+    
+
+}
+.img-cars-section img{
+    width: 200px;
+    height: 320px;
+}
+
+/* stream-section  */
+.stream-img{
+    justify-content: center;
+}
+.stream-img img{
+    width: 1130px;
+    
+}
+
+/* best live shows  */
+.live-events img{
+    height: 200px;
+}
+/* premiers-section  */
+.premiers-section{
+    color: white;
+    background-color: #2b3148;
+    padding-bottom: 40px;
+}
+.premiere-heading img{ 
+    width: 1000px;
+    margin-bottom: 30px;
+}
+/* main-image  */
+.main-image-section{
+    align-self: center;
+    margin-inline: 10px;
+}
+.main-image img{
+    width: 1500px;
+}
